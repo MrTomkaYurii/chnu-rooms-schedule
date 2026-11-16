@@ -1,0 +1,35 @@
+/* _content/ChnuRooms.UI/Alert.razor.rz.scp.css */
+/* CSS-ізоляція: правила діють лише всередині компонента Alert */
+.chnu-alert[b-aruke1oj3x] {
+    display: flex;
+    gap: .25rem;
+    background: var(--tblr-bg-surface);
+}
+
+/* ::deep дозволяє стилізувати розмітку, передану через ChildContent */
+.chnu-alert[b-aruke1oj3x]  a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+}
+/* _content/ChnuRooms.UI/DismissibleAlert.razor.rz.scp.css */
+.dismissible[b-ga2ujl6ltl] {
+    position: relative;
+}
+
+.btn-close[b-ga2ujl6ltl] {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+/* _content/ChnuRooms.UI/NumberStepper.razor.rz.scp.css */
+.stepper[b-im91sipm5j] {
+    width: auto;
+    display: inline-flex;
+}
+
+.stepper .input-group-text[b-im91sipm5j] {
+    min-width: 6.5rem;
+    justify-content: center;
+    font-variant-numeric: tabular-nums;
+}

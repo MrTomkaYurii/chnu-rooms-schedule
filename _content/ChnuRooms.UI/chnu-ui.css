@@ -1,0 +1,6 @@
+/* Глобальні стилі бібліотеки ChnuRooms.UI.
+   Підключаються в App.razor як _content/ChnuRooms.UI/chnu-ui.css */
+.chnu-logo {
+    display: inline-block;
+    flex-shrink: 0;
+}

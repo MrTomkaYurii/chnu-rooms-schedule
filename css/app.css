@@ -1,0 +1,36 @@
+:root,
+[data-bs-theme=light] {
+    --tblr-font-sans-serif: 'Inter', -apple-system, 'Segoe UI', Arial, sans-serif;
+    --tblr-primary: #1e3a5f;
+    --tblr-primary-rgb: 30, 58, 95;
+}
+
+.app-loading {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#blazor-error-ui {
+    background: #fff8e1;
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: .6rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: .75rem;
+        top: .5rem;
+    }
+
+.page-title:focus {
+    outline: none;
+}
